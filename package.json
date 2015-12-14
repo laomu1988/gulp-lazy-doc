@@ -1,0 +1,27 @@
+{
+  "name": "gulp-lazy-doc",
+  "version": "0.0.1",
+  "description": "懒人文档生成工具",
+  "main": "index.js",
+  "dependencies": {
+    "lazy-doc": "~0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/laomu1988/gulp-lazy-doc.git"
+  },
+  "keywords": [
+    "gulp-doc",
+    "lazy-doc"
+  ],
+  "author": {
+    "name": "muzhilong",
+    "email": "laomu1988@qq.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/laomu1988/gulp-lazy-css/issues"
+  },
+  "homepage": "https://github.com/laomu1988/gulp-lazy-css#readme"
+}
