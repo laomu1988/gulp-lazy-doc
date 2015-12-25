@@ -8,6 +8,6 @@ var config = {
 };
 gulp.task('default', function () {
     gulp.src([config.src + '*.*'])
-        .pipe(doc({output: 'readme.md'}))
+        .pipe(doc({output: 'readme.md', scopes: [{start: '/**@', end: '*/'}, {start: '<!--', end: '-->'}]}))
         .pipe(gulp.dest(config.dest));
 });

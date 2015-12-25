@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec { raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\node_modules\\gulp-lazy-doc',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\v_muzhilong\AppData\Roaming\npm-cache\gulp-lazy-doc\0.0.1\package.tgz not in flight; packing
+9 verbose tar pack [ 'C:\\Users\\v_muzhilong\\AppData\\Roaming\\npm-cache\\gulp-lazy-doc\\0.0.1\\package.tgz',
+9 verbose tar pack   'D:\\node_modules\\gulp-lazy-doc' ]
+10 verbose tarball C:\Users\v_muzhilong\AppData\Roaming\npm-cache\gulp-lazy-doc\0.0.1\package.tgz
+11 verbose folder D:\node_modules\gulp-lazy-doc
+12 info prepublish gulp-lazy-doc@0.0.1
+13 verbose addLocalTarball adding from inside cache C:\Users\v_muzhilong\AppData\Roaming\npm-cache\gulp-lazy-doc\0.0.1\package.tgz
+14 silly cache afterAdd gulp-lazy-doc@0.0.1
+15 verbose afterAdd C:\Users\v_muzhilong\AppData\Roaming\npm-cache\gulp-lazy-doc\0.0.1\package\package.json not in flight; writing
+16 verbose afterAdd C:\Users\v_muzhilong\AppData\Roaming\npm-cache\gulp-lazy-doc\0.0.1\package\package.json written
+17 silly publish { name: 'gulp-lazy-doc',
+17 silly publish   version: '0.0.1',
+17 silly publish   description: '懒人文档生成工具',
+17 silly publish   main: 'index.js',
+17 silly publish   dependencies: { 'lazy-doc': '~0.0.1' },
+17 silly publish   repository:
+17 silly publish    { type: 'git',
+17 silly publish      url: 'git://github.com/laomu1988/gulp-lazy-doc.git' },
+17 silly publish   keywords: [ 'gulp-doc', 'lazy-doc' ],
+17 silly publish   author: { name: 'muzhilong', email: 'laomu1988@qq.com' },
+17 silly publish   license: 'MIT',
+17 silly publish   readmeFilename: 'README.md',
+17 silly publish   bugs: { url: 'https://github.com/laomu1988/gulp-lazy-css/issues' },
+17 silly publish   homepage: 'https://github.com/laomu1988/gulp-lazy-css#readme',
+17 silly publish   gitHead: 'e7d0f5f7dbe0069f0ae52b5a1780cdcf958fcffe',
+17 silly publish   readme: 'ERROR: No README data found!',
+17 silly publish   _id: 'gulp-lazy-doc@0.0.1',
+17 silly publish   scripts: {},
+17 silly publish   _shasum: '2ad251cc3609ee5585fd4756fff1956e91acc225',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name gulp-lazy-doc
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/gulp-lazy-doc
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading C:\Users\v_muzhilong\AppData\Roaming\npm-cache\gulp-lazy-doc\0.0.1\package.tgz
+25 verbose request uri https://registry.npmjs.org/gulp-lazy-doc
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 17:56:25
+28 verbose request using bearer token for auth
+29 verbose request id 39630f6809ca4389
+30 http request PUT https://registry.npmjs.org/gulp-lazy-doc
+31 info retry will retry, error on last attempt: Error: read ECONNRESET
+32 info attempt registry request try #2 at 17:57:07
+33 verbose request using bearer token for auth
+34 http request PUT https://registry.npmjs.org/gulp-lazy-doc
+35 info retry will retry, error on last attempt: Error: read ECONNRESET
+36 info attempt registry request try #3 at 17:58:26
+37 verbose request using bearer token for auth
+38 http request PUT https://registry.npmjs.org/gulp-lazy-doc
+39 verbose request invalidating C:\Users\v_muzhilong\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-lazy-doc on PUT
+40 error publish Failed PUT undefined
+41 verbose stack Error: read ECONNRESET
+41 verbose stack     at exports._errnoException (util.js:746:11)
+41 verbose stack     at TCP.onread (net.js:559:26)
+42 verbose cwd D:\node_modules\gulp-lazy-doc
+43 error Windows_NT 6.1.7601
+44 error argv "D:\\Program Files\\nodejs\\\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+45 error node v0.12.7
+46 error npm  v2.11.3
+47 error code ECONNRESET
+48 error errno ECONNRESET
+49 error syscall read
+50 error network read ECONNRESET
+50 error network This is most likely not a problem with npm itself
+50 error network and is related to network connectivity.
+50 error network In most cases you are behind a proxy or have bad network settings.
+50 error network
+50 error network If you are behind a proxy, please make sure that the
+50 error network 'proxy' config is set properly.  See: 'npm help config'
+51 verbose exit [ 1, true ]
